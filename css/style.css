@@ -1,0 +1,256 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: 0 auto;
+  background-color: aqua;
+  border: 1px solid black;
+  color: black;
+  width: 98%;
+  max-width: 1400px;
+
+}
+
+/* header */
+
+.sfondo-header{
+  background-size: cover;
+  background-color: yellow;
+
+}
+
+.parte-superiore{
+  height: 700px;
+}
+
+.display-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20%;
+  border: 1px solid black;
+}
+
+.logo{
+  border: 1px solid black;
+}
+
+.elenco{
+  border: 1px solid black;
+}
+
+.accedi{
+  border: 1px solid black;
+}
+
+ul li{
+  list-style: none;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  display: inline-block;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: black;
+}
+
+button{
+  font-size: 0.8em;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  color: black;
+}
+
+button:hover{
+  background-color: gray;
+  border: 1px solid gray;
+  color: white;
+}
+
+/* jumbotron */
+
+.jumbotron{
+  height: 80%;
+  text-align: center;
+  padding-top: 150px;
+  border: 1px solid black;
+}
+
+.bottone-browser{
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  margin: 0 20px;
+}
+
+.botton-browser:hover{
+  background-color: gray;
+  border: 1px solid gray;
+}
+
+div h1{
+  font-size: 50px;
+  border: 1px solid black;
+}
+
+.paragrafo-jumbotron{
+  padding: 40px 400px 30px 400px;
+  border: 1px solid black;
+}
+
+/* main dal primo al terzo paragrafo*/
+.sfondo-grigio{
+  background-color:yellow;
+}
+
+.paragrafo{
+  height: 600px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.img-main{
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  border: 1px solid black; 
+}
+
+.descrizione-paragrafi{
+  height: 100%;
+  width: 40%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  
+}
+
+h2{
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 80px 40px 0;
+}
+
+.testo{
+  height: 50%;
+  padding-right: 80px;
+}
+
+/* main ultimo paragrafo */
+
+.paragrafo-bot{
+  height: 300px;
+  text-align: center;
+  
+}
+
+.quarta-section{
+  border: 1px solid black;
+}
+
+h3{
+  font-size: 40px;
+  padding-bottom: 20px;
+  border: 1px solid black;
+}
+
+.immagine-centrale{
+  padding: 20px 0 40px 0;
+  border: 1px solid black;
+}
+
+
+.stelline span{
+  border: 1px solid black;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.bottoni-lilla{
+  margin: 20px;
+  background-color: rgb(142, 161, 225);
+  border: 1px solid black;
+  color: black;
+}
+
+/* footer */
+
+footer{
+  background-color: yellow;
+  color: black;
+
+}
+
+.sezione-footer{
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 98%;
+  max-width: 1400px;
+  border-bottom: 1px solid rgb(53, 62, 84);
+  display: flex;
+  justify-content: space-around;
+}
+
+.lista-sinistra{
+  width: 25%;
+  background-color: aqua;
+  border: 1px solid black;
+  
+}
+
+.lista-destra{
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+
+.lista-footer{
+  display: flex;
+  flex-direction: column;
+  border: 1PX solid black;
+}
+
+.titoletti-viola{
+  color: rgb(113, 136, 217);
+}
+
+
+.prima-colonna{
+  font-size: 1.5em;
+}
+
+.fine-footer{
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 98%;
+  height: 200px;
+  background-color: aqua;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-items: center;
+  
+}
